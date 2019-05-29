@@ -1,6 +1,6 @@
-num=input()
-a=input().split(" ")
-b=len(a)
-for i in range(b):
-    print(a[i],end=" ")
+number=input()
+e=input().split(" ")
+f=len(e)
+for i in range(f):
+    print(e[i],end=" ")
     print(i)
