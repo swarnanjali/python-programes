@@ -1,3 +1,3 @@
-n,s=input().split()
-s=int(s)
-print(n[0:s])
+k,l=input().split()
+l=int(l)
+print(k[0:l])
