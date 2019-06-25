@@ -1,9 +1,9 @@
-r=int(input())
-s=list(map(int,input().split()))
-c=0
+rd=int(input())
+sv=list(map(int,input().split()))
+cg=0
 for i in range(len(s)-2):
-    for x in range(i+1,len(s)-1):
-         for j in range(x+1,len(s)):
-            if s[i]<s[x]<s[j] and i<x<j:
-                c+=1
+    for x in range(i+1,len(sv)-1):
+         for j in range(x+1,len(sv)):
+            if sv[i]<sv[x]<sv[j] and i<x<j:
+                cg+=1
 print(c)    
