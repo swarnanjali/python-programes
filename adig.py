@@ -1,7 +1,7 @@
 from itertools import combinations
-x,y=map(int,input().split())
-g=len(str(x))
-a=list(combinations(str(x),g-y))
+d,e=map(int,input().split())
+g=len(str(d))
+a=list(combinations(str(d),g-e))
 a=(sorted(a))
 l="".join(a[0])
 print(l)
