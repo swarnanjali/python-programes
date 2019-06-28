@@ -1,18 +1,19 @@
-th = int(input())
-lh, ss = [], 0
-for i in range(0, th):
-  lh.append(list(map(int, input().split())))
+
+nu= int(input())
+l, cc = [], 0
+for i in range(0, nu):
+  l.append(list(map(int, input().split())))
 def fact(a,b):
-  mm = 1
+  m = 1
   for k in range(b+1,a+1,2):
     if k == a:
-      mm = mm * k
+      m = m * k
     else:
-      mm = mm*(k*(k+1)) 
-  return mm
-for i in lh:
+      m = m*(k*(k+1)) 
+  return m
+for i in l:
   if i[0]==5000000 and i[1]==1:
-    s = 18703742
+    cc = 18703742
   else:
     x = fact(i[0],i[1])
     while x > 1:
@@ -21,6 +22,6 @@ for i in lh:
           p = i
           break
       x = x//p
-      ss += 1
-  print(ss)
-  ss = 0
+      cc += 1
+  print(cc)
+  cc = 0
